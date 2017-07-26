@@ -1,24 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Test Git Hub</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <div class="main">
-       <h1>Test Git</h1>
-       <p>Проверка работоспособности Git</p>
-       <div class="tab">
+ <header class="main-header">
+     <div class="container">
+        <nav class="main-navigation">
            <ul>
-               <li>Hello</li>
-               <li>Hello</li>
-               <li>Hello</li>
-               <li>Hello</li>
-               <li>Hello</li>
-           </ul>
-       </div>
-   </div>
-    
+               <li><a href="#">Информация</a></li>
+               <li><a href="#">Новости</a></li>
+               <li><a href="#">Прайс-лист</a></li>
+               <li><a href="#">Магазин</a></li>
+               <li><a href="#">Контакты</a></li>
+           </ul>               
+        </nav>
+        <div class="user-block">
+           <a class="login" href="#">Вход</a>
+        </div> 
+     </div>
+ </header>
+ 
+ <main class="container">
+     <div class="index-logo">
+         <img src="img/index-logo.png" width="" height="" alt="Барбершоп"Бородинский"">
+     </div>
+     
+     <section class="feauteres">
+         <div class="feauteres-item">
+             <b class="feauteres-name">БЫСТРО</b>
+             <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+         </div>
+         <div class="feauteres-item">
+             <b class="feauteres-name">КРУТО</b>
+             <p>Забудте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино. Во всяком случае внешне.</p>
+         </div>
+         <div class="feauteres-item">
+             <b class="feauteres-name">ДОРОГО</b>
+             <p>Наши мастера - профессионалы своего дела и  не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+         </div>
+     </section>
+     
+     <div class="index-content">
+         <div class="index-content-left">
+             <h2 class="index-content-title">Новости</h2>
+             <ul class="news-previer">
+                 <li>
+                     <p>Наконец завезли Ягермастера.Теперь вы можете пропустить скаканчик во время стрижки.</p>
+                     <time datetime="2016-01-11">11 января</time>
+                 </li>
+                 <li>
+                     <p>В нашей команде пополнение, Борис "Бритва", обладатель множества титулов и наград пополнил наши стройные ряды</p>
+                     <time datetime="2016-01-18">18 января</time>
+                 </li>
+             </ul>
+             <a href="#" class="btn">Все новости</a>
+         </div>
+         <div class="index-content-right">
+             <h2 class="index-content-title">Фотогалерея</h2>
+             <div class="gallery">
+                <figure class="gallery-content">
+                   <img src="img/photo-1.jpg" width="" height="" alt="">                    
+                </figure>
+                <button class="btn gallery-prev">Назад</button>
+                <button class="btn gallery-next">Вперед</button> 
+             </div>
+         </div>
+     </div>
+     
+     <div class="index-content">
+         <div class="index-content-left">
+             <h2 class="index-content-title">Контактная информация</h2>
+             <p>Барбершоп "Бородинский"<br>
+                г. Запорожье, пр. Ленина 123 <br>
+                тел. 220-20-20
+             </p>
+             <p>Время работы: <br>
+                пн-пт: 9:00 - 18:00 <br>
+                сб-вс: 10:00 - 20:00 
+             </p>
+             <a href="#" class="btn">Как проехать</a>
+             <a href="#" class="btn">Обратная связь</a>
+         </div>
+         <div class="index-content-right">
+             <h2 class="index-content-title">Записаться</h2>
+             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+             <form action="#" method="post" class="appointment-form">
+                 <input type="text" name="date" value="" placeholder="Дата">
+                 <input type="text" name="time" value="" placeholder="Время">
+                 <input type="text" name="name" value="" placeholder="Ваше имя">
+                 <input type="tel" name="phone" value="" placeholder="Телефон">
+                 <button class="btn" type="submit">Отправить</button>
+             </form>
+         </div>
+     </div>
+ </main>
+ 
+ <footer class="main-footer">
+     <div class="container">
+         <div class="footer-contact">
+            <p>Барбершоп "Бородинский"<br>
+               г. Запорожье, пр. Ленина 123 <br>
+               тел. 220-20-20
+            </p> 
+         </div>
+         <div class="footer-social">
+            <p></p>
+            <a href="#" class="social-btn social-btn-vk">Контакт</a>
+            <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+            <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+         </div>
+         <div class="footer-copyright">
+            <p></p>
+            <a href="https://htmlacademy.ru" class="btn">HTML Academy</a> 
+         </div>
+     </div>
+ </footer>
+  
 </body>
 </html>
