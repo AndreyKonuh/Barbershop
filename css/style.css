@@ -1,0 +1,142 @@
+html, body {
+    min-height: 1750px;
+    min-width: 1122px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff url("index-grid.jpg") no-repeat 50%;
+    background-size: 1122px auto;
+    
+}
+
+.main-header {
+    min-height: 70px;
+    margin-bottom: 60px;
+    
+    background-color: aquamarine;
+    
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.container {
+    width: 940px;
+    padding: 0 10px;
+    margin: auto;
+    
+    min-height: 70px;
+    
+    background-color: beige;
+}
+
+.main-navigation {
+    float: left;
+    width: 780px;
+    
+    min-height: 70px;
+    
+    background-color: chartreuse;
+    
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+    
+    min-height: 70px;
+   
+    background-color: chartreuse;
+}
+
+.index-logo {
+    height: 204px;
+    width: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.feauteres {
+    margin-bottom: 80px;
+    
+    background-color:cornflowerblue;
+}
+
+.feauteres-item {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    
+    min-height: 175px;
+    background-color: darkorange;
+    }
+
+.feauteres-item:last-child {
+    margin-right: 0px;
+}
+
+.index-content {
+    padding: 50px 80px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: deepskyblue;
+}
+
+.index-content-left {
+    float: left;
+    width: 350px;
+    
+    min-height: 330px;
+    background-color: aquamarine;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+    
+    min-height: 330px;
+    background-color:blueviolet;
+}
+
+.main-footer {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    
+    background-color: red;
+    
+}
+
+.footer-contact {
+    min-height: 90px;
+    float: left;
+    width: 320px;
+    margin-right: 30px;
+    
+    background-color: chartreuse;
+}
+
+.footer-social {
+    min-height: 90px;
+    float: left;
+    width: 180px;
+    
+    background-color: chartreuse;
+}
+
+.footer-copyright {
+    min-height: 90px;
+    float: right;
+    width: 180px;
+    
+    background-color: chartreuse;
+}
